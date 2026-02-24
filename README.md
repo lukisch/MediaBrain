@@ -104,4 +104,6 @@ Offene Punkte findest du in der `ROADMAP.md`.
 
 ## 📄 Lizenz
 
-MIT License - Siehe [LICENSE](LICENSE)
+GPL v3 - Siehe [LICENSE](LICENSE)
+
+Dieses Projekt verwendet PyQt6 (GPL).
