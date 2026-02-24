@@ -104,4 +104,4 @@ Offene Punkte findest du in der `ROADMAP.md`.
 
 ## 📄 Lizenz
 
-Proprietär / intern (noch nicht festgelegt)
+MIT License - Siehe [LICENSE](LICENSE)
