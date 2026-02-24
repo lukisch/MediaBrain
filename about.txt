@@ -1,0 +1,22 @@
+MediaBrain/
+│
+├── MediaBrain.py          # Hauptstartpunkt: App starten + GUI initialisieren
+├── core.py                # Datenbank, MediaItem, MediaManager, Blacklist-Logik
+├── providers.py           # Provider-Klassen (Netflix, YouTube, Spotify, Lokal…)
+├── gui.py                 # PyQt6 GUI: MainWindow, Views, Widgets
+├── background.py          # Hintergrundprozesse: Browser/App/File-Watcher
+├── config.py              # Einstellungen, Pfade, Defaults
+│
+├── logs/                  # Logfiles
+│   └── app.log
+│
+├── tests/                 # Unit-Tests
+│   ├── test_core.py
+│   ├── test_providers.py
+│   ├── test_background.py
+│   └── test_gui.py
+│
+└── gui_resources/         # Icons, Stylesheets, UI-Dateien
+    ├── icons/
+    ├── styles.qss
+    └── ...

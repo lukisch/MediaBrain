@@ -1,0 +1,39 @@
+/* Dark Theme */
+
+QWidget {
+    background-color: #1e1e1e;
+    color: #ddd;
+    font-size: 14pt;
+}
+
+QPushButton {
+    background-color: #333;
+    border: 1pt solid #555;
+    padding: 6pt 10pt;
+    border-radius: 4pt;
+}
+
+QPushButton:hover {
+    background-color: #444;
+}
+
+QLineEdit {
+    background-color: #2a2a2a;
+    border: 1pt solid #555;
+    padding: 4pt;
+    border-radius: 4pt;
+    color: #eee;
+}
+
+QScrollArea {
+    background-color: transparent;
+}
+
+QMenu {
+    background-color: #2a2a2a;
+    border: 1pt solid #555;
+}
+
+QMenu::item:selected {
+    background-color: #444;
+}

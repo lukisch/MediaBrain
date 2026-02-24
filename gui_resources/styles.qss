@@ -1,0 +1,38 @@
+/* Light Theme */
+
+QWidget {
+    background-color: #f5f5f5;
+    color: #222;
+    font-size: 14pt;
+}
+
+QPushButton {
+    background-color: #e0e0e0;
+    border: 1pt solid #bbb;
+    padding: 6pt 10pt;
+    border-radius: 4pt;
+}
+
+QPushButton:hover {
+    background-color: #d5d5d5;
+}
+
+QLineEdit {
+    background-color: white;
+    border: 1pt solid #aaa;
+    padding: 4pt;
+    border-radius: 4pt;
+}
+
+QScrollArea {
+    background-color: transparent;
+}
+
+QMenu {
+    background-color: #ffffff;
+    border: 1pt solid #aaa;
+}
+
+QMenu::item:selected {
+    background-color: #e0e0e0;
+}

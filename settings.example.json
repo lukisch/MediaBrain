@@ -1,0 +1,39 @@
+{
+    "ui": {
+        "theme": "light",
+        "window_width": 1200,
+        "window_height": 800
+    },
+    "providers": {
+        "netflix": {
+            "preferred_open_method": "browser"
+        },
+        "youtube": {
+            "preferred_open_method": "browser"
+        },
+        "spotify": {
+            "preferred_open_method": "app"
+        },
+        "local": {
+            "preferred_open_method": "local"
+        }
+    },
+    "library_sorting": {
+        "movie": "last_opened",
+        "series": "last_opened",
+        "music": "last_opened",
+        "clip": "last_opened",
+        "podcast": "last_opened",
+        "audiobook": "last_opened"
+    },
+    "file_indexer": {
+        "enabled": true,
+        "watch_paths": [
+            "C:\Users\YOUR_USERNAME\Music",
+            "C:\Users\YOUR_USERNAME\Videos",
+            "C:\Users\YOUR_USERNAME\Downloads"
+        ]
+    },
+    "auto_fetch_metadata": true,
+    "allow_file_deletion": false
+}
