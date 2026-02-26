@@ -42,5 +42,14 @@ releases/
 *.swp
 *.swo
 
+# OS
+.DS_Store
+Thumbs.db
+
+# Standard-Patterns
+PLAN.txt
+_archive/
+_private/
+
 # Project-specific
 AUFGABEN.txt
